@@ -1,11 +1,13 @@
+import React from "react";
 import SideDrawer from "../../Components/SideDrawer";
 
-const About = () => {
+
+const DiceRoller = () => {
 
   return (
     <div className="App">
       <header className="App-header">
-        WIP - RPGToolChest about page
+        WIP - RPGToolChest DiceRoller page
       </header>
       <body>
         <SideDrawer />
@@ -14,4 +16,4 @@ const About = () => {
   )
 }
 
-export default About;
+export default DiceRoller;
