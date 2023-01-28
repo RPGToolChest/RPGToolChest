@@ -1,4 +1,4 @@
-import React from "react";
+import SideDrawer from "../../Components/SideDrawer";
 
 
 const Home = () => {
@@ -8,6 +8,9 @@ const Home = () => {
       <header className="App-header">
         WIP - RPGToolChest main page
       </header>
+      <body>
+        <SideDrawer />
+      </body>
     </div>
   )
 }

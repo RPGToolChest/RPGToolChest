@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import {
   BrowserRouter as Router,
@@ -9,6 +8,7 @@ import {
 } from "react-router-dom";
 import Home from './Pages/Home/home';
 import About from './Pages/About/about'
+import DiceRoller from './Pages/DiceRoller/diceroller';
 
 
 export default function App() {
@@ -28,6 +28,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/about" element={<About/>}/>
+          <Route path="/diceroller" element={<DiceRoller/>}/>
           {/* <Route path="/example" element={<examplePage/>}/> */}
         </Routes>
       </div>
